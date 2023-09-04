@@ -1,0 +1,21 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(177, 177, 177, 0.5);
+}
+.modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalcontent {
+  text-align: center;
+  padding: 16px;
+  min-width: 250px;
+  background: cornsilk;
+  border-radius: 16px;
+}
