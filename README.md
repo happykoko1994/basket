@@ -1,2 +1,2 @@
-# basket
-Created with CodeSandbox
+# Корзина
+Приложение корзины товаров на React
