@@ -21,9 +21,11 @@ function Card({
           <img src={image} alt="LPR" />
         </div>
       </div>
-      <button onClick={() => onClickRemove(id, value)}>-</button>
-      <div></div>
-      <button onClick={() => onClickInvite(id, value)}>+</button>
+      <div className="btn-container">
+        <button className="card-button" onClick={() => onClickInvite(id, value)}>+</button>
+        <button className="card-button" onClick={() => onClickRemove(id, value)}>-</button>
+        </div>
+
     </div>
   );
 }

@@ -17,7 +17,7 @@ function OpenCart({ cart, basket, close, setClose, summ, cartRemove }) {
 
       <div className={contClose}>{cart}</div>
       <div className={summClose}> Сумма : {summ}p.</div>
-      <button style={{ fontSize: 16 }} onClick={cartRemove}>
+      <button className="clear" style={{ fontSize: 16 }} onClick={cartRemove}>
         Очистить
       </button>
     </div>
